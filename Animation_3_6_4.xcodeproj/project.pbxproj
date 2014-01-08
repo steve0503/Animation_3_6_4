@@ -21,6 +21,7 @@
 		0480F5FF187E05BC009998DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0480F5E1187E05BC009998DC /* UIKit.framework */; };
 		0480F607187E05BC009998DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0480F605187E05BC009998DC /* InfoPlist.strings */; };
 		0480F609187E05BC009998DC /* Animation_3_6_4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480F608187E05BC009998DC /* Animation_3_6_4Tests.m */; };
+		0480F614187E05E4009998DC /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 0480F613187E05E4009998DC /* apple.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0480F604187E05BC009998DC /* Animation_3_6_4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animation_3_6_4Tests-Info.plist"; sourceTree = "<group>"; };
 		0480F606187E05BC009998DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0480F608187E05BC009998DC /* Animation_3_6_4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animation_3_6_4Tests.m; sourceTree = "<group>"; };
+		0480F613187E05E4009998DC /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		0480F5D1187E05BC009998DC = {
 			isa = PBXGroup;
 			children = (
+				0480F612187E05DC009998DC /* Res */,
 				0480F5E3187E05BC009998DC /* Animation_3_6_4 */,
 				0480F602187E05BC009998DC /* Animation_3_6_4Tests */,
 				0480F5DC187E05BC009998DC /* Frameworks */,
@@ -150,6 +153,14 @@
 				0480F605187E05BC009998DC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0480F612187E05DC009998DC /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				0480F613187E05E4009998DC /* apple.png */,
+			);
+			name = Res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 			files = (
 				0480F5F6187E05BC009998DC /* Images.xcassets in Resources */,
 				0480F5E8187E05BC009998DC /* InfoPlist.strings in Resources */,
+				0480F614187E05E4009998DC /* apple.png in Resources */,
 				0480F5F1187E05BC009998DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
